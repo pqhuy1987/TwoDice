@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149A5B730C13F6EDF577EE0E3505A386 /* JAQDiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29278051639FB95245830B72391B55C1 /* JAQDiceView.m */; };
+		23884F6BA8674CC22B09397659EF275C /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6811CA3A47257CFA83B4A8648DF10BAC /* SceneKit.framework */; };
+		42C0F855F076B45E109B1A8EF9DBA6ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */; };
+		567030B83F7A82141A72D8EAAE6707CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */; };
+		B49459BE6489B8839FBBDF88FFC7CEBD /* JAQDiceView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC7D3ED3834214957E0D8E2843301 /* JAQDiceView-dummy.m */; };
+		B6BDABBE61C890B4EB818E3574621322 /* SCNNode+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB12EDEED460C105F137DFB96945653F /* SCNNode+Utils.m */; };
+		D74C2B31DC35C158505FEE706A4C035A /* SCNNode+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 253D9A585B7A3A1FA1DCD7BD9D77FD11 /* SCNNode+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7CD6E03C236B94244016F6900BC140E /* Pods-JAQDiceView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AEDC3AC02A35B3EDEF1C668255C3C /* Pods-JAQDiceView-dummy.m */; };
+		EA1BC0275E9DE1542BDA87950771130B /* Dices.dae in Resources */ = {isa = PBXBuildFile; fileRef = E77A1BECF8F16E4B9207CA15CBC53A9E /* Dices.dae */; };
+		EF86FBF45CF26212F4F109BE52E4FFAA /* JAQDiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EF3FD743982EA7C49AA017ADDAC488 /* JAQDiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F979F0CD109B702CA838FAD97B0FA4EF /* woodTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EEBF443FD10645B3E94BAF61A9E973 /* woodTile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3A28B3BFFDDABC946B1019327582EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0864F99BDDC6D3D96529710B9E28B9;
+			remoteInfo = "JAQDiceView-JAQDiceView";
+		};
+		D24129B5298B9E026C43F10A0E01A14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA24948377C27ED7CF81D2244A4031F7;
+			remoteInfo = JAQDiceView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3BD85BAF9E94C56946E77EAF4737D8 /* Pods-JAQDiceView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAQDiceView.debug.xcconfig"; sourceTree = "<group>"; };
+		253D9A585B7A3A1FA1DCD7BD9D77FD11 /* SCNNode+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCNNode+Utils.h"; path = "Pod/Classes/SCNNode+Utils.h"; sourceTree = "<group>"; };
+		29278051639FB95245830B72391B55C1 /* JAQDiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAQDiceView.m; path = Pod/Classes/JAQDiceView.m; sourceTree = "<group>"; };
+		292EC71BD8FF24BD55F28EC9E90DC317 /* libPods-JAQDiceView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JAQDiceView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2C7348CCE8985A8D7C1C72FD2B8233 /* ResourceBundle-JAQDiceView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JAQDiceView-Info.plist"; sourceTree = "<group>"; };
+		40EF3FD743982EA7C49AA017ADDAC488 /* JAQDiceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAQDiceView.h; path = Pod/Classes/JAQDiceView.h; sourceTree = "<group>"; };
+		482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAQDiceView.xcconfig; sourceTree = "<group>"; };
+		4B3AC7D3ED3834214957E0D8E2843301 /* JAQDiceView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAQDiceView-dummy.m"; sourceTree = "<group>"; };
+		594AEDC3AC02A35B3EDEF1C668255C3C /* Pods-JAQDiceView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAQDiceView-dummy.m"; sourceTree = "<group>"; };
+		5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D8EE590E41796AA5CDEDF04217E7980 /* Pods-JAQDiceView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAQDiceView-resources.sh"; sourceTree = "<group>"; };
+		6811CA3A47257CFA83B4A8648DF10BAC /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		7308C7550072BEED50253064B6E72C64 /* Pods-JAQDiceView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAQDiceView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88EEBF443FD10645B3E94BAF61A9E973 /* woodTile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = woodTile.png; path = Pod/Assets/woodTile.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE7212505E43DC10660B2625FEB75CA0 /* JAQDiceView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAQDiceView-prefix.pch"; sourceTree = "<group>"; };
+		C43B1EBE76B5A8466DCD21A948A63179 /* JAQDiceView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAQDiceView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D467B233E82F2BEEC0A1B040944C7E16 /* libJAQDiceView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJAQDiceView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18193111E980B95918865E4581B102F /* Pods-JAQDiceView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAQDiceView-frameworks.sh"; sourceTree = "<group>"; };
+		E77A1BECF8F16E4B9207CA15CBC53A9E /* Dices.dae */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml.dae; name = Dices.dae; path = Pod/Assets/Dices.dae; sourceTree = "<group>"; };
+		EB12EDEED460C105F137DFB96945653F /* SCNNode+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCNNode+Utils.m"; path = "Pod/Classes/SCNNode+Utils.m"; sourceTree = "<group>"; };
+		FA27B682E1E9671C7884704CF1A310F1 /* Pods-JAQDiceView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAQDiceView-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC333D291F728DA1C44E9E6A9735D322 /* Pods-JAQDiceView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAQDiceView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73FF2538F25A7798093B9EC5017E2993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07E1F5BF248D930CCBA45916E4375F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C0F855F076B45E109B1A8EF9DBA6ED /* Foundation.framework in Frameworks */,
+				23884F6BA8674CC22B09397659EF275C /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C59424890CE530D1959412375AAFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567030B83F7A82141A72D8EAAE6707CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D281EBA4985DA4F53023E08B4A39E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43B1EBE76B5A8466DCD21A948A63179 /* JAQDiceView.bundle */,
+				D467B233E82F2BEEC0A1B040944C7E16 /* libJAQDiceView.a */,
+				292EC71BD8FF24BD55F28EC9E90DC317 /* libPods-JAQDiceView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21E4DCDA74BFFABCA5E000682BFBD3F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */,
+				6811CA3A47257CFA83B4A8648DF10BAC /* SceneKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21E4DCDA74BFFABCA5E000682BFBD3F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A9FF23D20E45E6DFEC99ED0F985F00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */,
+				4B3AC7D3ED3834214957E0D8E2843301 /* JAQDiceView-dummy.m */,
+				BE7212505E43DC10660B2625FEB75CA0 /* JAQDiceView-prefix.pch */,
+				3A2C7348CCE8985A8D7C1C72FD2B8233 /* ResourceBundle-JAQDiceView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JAQDiceView";
+			sourceTree = "<group>";
+		};
+		74B2B147DCE8BBDE896391762ABBA1E2 /* Pods-JAQDiceView */ = {
+			isa = PBXGroup;
+			children = (
+				7308C7550072BEED50253064B6E72C64 /* Pods-JAQDiceView-acknowledgements.markdown */,
+				FA27B682E1E9671C7884704CF1A310F1 /* Pods-JAQDiceView-acknowledgements.plist */,
+				594AEDC3AC02A35B3EDEF1C668255C3C /* Pods-JAQDiceView-dummy.m */,
+				E18193111E980B95918865E4581B102F /* Pods-JAQDiceView-frameworks.sh */,
+				5D8EE590E41796AA5CDEDF04217E7980 /* Pods-JAQDiceView-resources.sh */,
+				0B3BD85BAF9E94C56946E77EAF4737D8 /* Pods-JAQDiceView.debug.xcconfig */,
+				FC333D291F728DA1C44E9E6A9735D322 /* Pods-JAQDiceView.release.xcconfig */,
+			);
+			name = "Pods-JAQDiceView";
+			path = "Target Support Files/Pods-JAQDiceView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CE0199048FAA022E774124380CA33583 /* Pods */,
+				1D281EBA4985DA4F53023E08B4A39E5B /* Products */,
+				D690F3F66C31DF8F68453DDAB96DF92A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91F21B2479507A0B1B1684A500DBF855 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E77A1BECF8F16E4B9207CA15CBC53A9E /* Dices.dae */,
+				88EEBF443FD10645B3E94BAF61A9E973 /* woodTile.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABD41052564ABFA95086694FB1D93A70 /* JAQDiceView */ = {
+			isa = PBXGroup;
+			children = (
+				40EF3FD743982EA7C49AA017ADDAC488 /* JAQDiceView.h */,
+				29278051639FB95245830B72391B55C1 /* JAQDiceView.m */,
+				253D9A585B7A3A1FA1DCD7BD9D77FD11 /* SCNNode+Utils.h */,
+				EB12EDEED460C105F137DFB96945653F /* SCNNode+Utils.m */,
+				91F21B2479507A0B1B1684A500DBF855 /* Resources */,
+				72A9FF23D20E45E6DFEC99ED0F985F00 /* Support Files */,
+			);
+			path = JAQDiceView;
+			sourceTree = "<group>";
+		};
+		CE0199048FAA022E774124380CA33583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD41052564ABFA95086694FB1D93A70 /* JAQDiceView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D690F3F66C31DF8F68453DDAB96DF92A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74B2B147DCE8BBDE896391762ABBA1E2 /* Pods-JAQDiceView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DF92394E8A127BA23D39C1417B64BEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF86FBF45CF26212F4F109BE52E4FFAA /* JAQDiceView.h in Headers */,
+				D74C2B31DC35C158505FEE706A4C035A /* SCNNode+Utils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0FE1BA35834FC0DC0F9C2F5337C430B /* Pods-JAQDiceView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C01985941252E714ED05BCCEFE1245 /* Build configuration list for PBXNativeTarget "Pods-JAQDiceView" */;
+			buildPhases = (
+				4E12E766A61096A52F57F364062CB3B2 /* Sources */,
+				F5C59424890CE530D1959412375AAFA2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26ABE27CBBE56EEFAD7A7FCD0F77622 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAQDiceView";
+			productName = "Pods-JAQDiceView";
+			productReference = 292EC71BD8FF24BD55F28EC9E90DC317 /* libPods-JAQDiceView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD0864F99BDDC6D3D96529710B9E28B9 /* JAQDiceView-JAQDiceView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD8C8A3B7CB52657E2DA9F9BF10DB7D /* Build configuration list for PBXNativeTarget "JAQDiceView-JAQDiceView" */;
+			buildPhases = (
+				A8CF7A4CFFFB84285A5E2A29DDB3B059 /* Sources */,
+				73FF2538F25A7798093B9EC5017E2993 /* Frameworks */,
+				69ED1C4370C9F46C83E2AB3BD6445493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JAQDiceView-JAQDiceView";
+			productName = "JAQDiceView-JAQDiceView";
+			productReference = C43B1EBE76B5A8466DCD21A948A63179 /* JAQDiceView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CA24948377C27ED7CF81D2244A4031F7 /* JAQDiceView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEEC763A4743E8DDF0AC8C66CACD0E8 /* Build configuration list for PBXNativeTarget "JAQDiceView" */;
+			buildPhases = (
+				CA4DD22B178D5F6B20B3F1FEADCA49AD /* Sources */,
+				E07E1F5BF248D930CCBA45916E4375F6 /* Frameworks */,
+				4DF92394E8A127BA23D39C1417B64BEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E3CA12ACB6BDE125AF1F63A4999B25 /* PBXTargetDependency */,
+			);
+			name = JAQDiceView;
+			productName = JAQDiceView;
+			productReference = D467B233E82F2BEEC0A1B040944C7E16 /* libJAQDiceView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1D281EBA4985DA4F53023E08B4A39E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA24948377C27ED7CF81D2244A4031F7 /* JAQDiceView */,
+				BD0864F99BDDC6D3D96529710B9E28B9 /* JAQDiceView-JAQDiceView */,
+				A0FE1BA35834FC0DC0F9C2F5337C430B /* Pods-JAQDiceView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69ED1C4370C9F46C83E2AB3BD6445493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1BC0275E9DE1542BDA87950771130B /* Dices.dae in Resources */,
+				F979F0CD109B702CA838FAD97B0FA4EF /* woodTile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E12E766A61096A52F57F364062CB3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CD6E03C236B94244016F6900BC140E /* Pods-JAQDiceView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CF7A4CFFFB84285A5E2A29DDB3B059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4DD22B178D5F6B20B3F1FEADCA49AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49459BE6489B8839FBBDF88FFC7CEBD /* JAQDiceView-dummy.m in Sources */,
+				149A5B730C13F6EDF577EE0E3505A386 /* JAQDiceView.m in Sources */,
+				B6BDABBE61C890B4EB818E3574621322 /* SCNNode+Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1E3CA12ACB6BDE125AF1F63A4999B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JAQDiceView-JAQDiceView";
+			target = BD0864F99BDDC6D3D96529710B9E28B9 /* JAQDiceView-JAQDiceView */;
+			targetProxy = B3A28B3BFFDDABC946B1019327582EF7 /* PBXContainerItemProxy */;
+		};
+		F26ABE27CBBE56EEFAD7A7FCD0F77622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JAQDiceView;
+			target = CA24948377C27ED7CF81D2244A4031F7 /* JAQDiceView */;
+			targetProxy = D24129B5298B9E026C43F10A0E01A14B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DD604CCE79FCAE93E5A0481BA0FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3BD85BAF9E94C56946E77EAF4737D8 /* Pods-JAQDiceView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		216F85D7A56556DFC44A57365FD6D661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JAQDiceView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JAQDiceView/ResourceBundle-JAQDiceView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JAQDiceView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		726180A4B44C8E6556B3E909C973771A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC333D291F728DA1C44E9E6A9735D322 /* Pods-JAQDiceView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A8FF3E9B44852568635F609FAA680B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JAQDiceView/JAQDiceView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6CA00EED8F76D7F34B787A582433AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JAQDiceView/JAQDiceView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7C45923BD8A4C2F04E54A9882DDFCD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JAQDiceView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JAQDiceView/ResourceBundle-JAQDiceView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JAQDiceView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD8C8A3B7CB52657E2DA9F9BF10DB7D /* Build configuration list for PBXNativeTarget "JAQDiceView-JAQDiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216F85D7A56556DFC44A57365FD6D661 /* Debug */,
+				E7C45923BD8A4C2F04E54A9882DDFCD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEEC763A4743E8DDF0AC8C66CACD0E8 /* Build configuration list for PBXNativeTarget "JAQDiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6CA00EED8F76D7F34B787A582433AD /* Debug */,
+				A8FF3E9B44852568635F609FAA680B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C01985941252E714ED05BCCEFE1245 /* Build configuration list for PBXNativeTarget "Pods-JAQDiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DD604CCE79FCAE93E5A0481BA0FACD /* Debug */,
+				726180A4B44C8E6556B3E909C973771A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
