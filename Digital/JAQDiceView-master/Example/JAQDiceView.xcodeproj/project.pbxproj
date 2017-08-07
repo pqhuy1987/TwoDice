@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C082A41F38454A0091AA6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12C082A31F38454A0091AA6E /* GoogleService-Info.plist */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12C082A31F38454A0091AA6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		322F38BB950480059DE8F561 /* JAQDiceView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JAQDiceView.podspec; path = ../JAQDiceView.podspec; sourceTree = "<group>"; };
 		34AAD9B81C04E79DC431956E /* Pods-JAQDiceView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAQDiceView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAQDiceView/Pods-JAQDiceView.release.xcconfig"; sourceTree = "<group>"; };
 		413EF978E295C3DB064B8E07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				12C082A31F38454A0091AA6E /* GoogleService-Info.plist */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* JAQDiceView */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				12C082A41F38454A0091AA6E /* GoogleService-Info.plist in Resources */,
 				6003F5A1195388D20070C39A /* Main.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

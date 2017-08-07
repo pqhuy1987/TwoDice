@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		149A5B730C13F6EDF577EE0E3505A386 /* JAQDiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29278051639FB95245830B72391B55C1 /* JAQDiceView.m */; };
+		149A5B730C13F6EDF577EE0E3505A386 /* JAQDiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9096C844D06AD9A737A9FE675662B98E /* JAQDiceView.m */; };
 		23884F6BA8674CC22B09397659EF275C /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6811CA3A47257CFA83B4A8648DF10BAC /* SceneKit.framework */; };
 		42C0F855F076B45E109B1A8EF9DBA6ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */; };
 		567030B83F7A82141A72D8EAAE6707CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */; };
-		B49459BE6489B8839FBBDF88FFC7CEBD /* JAQDiceView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3AC7D3ED3834214957E0D8E2843301 /* JAQDiceView-dummy.m */; };
-		B6BDABBE61C890B4EB818E3574621322 /* SCNNode+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB12EDEED460C105F137DFB96945653F /* SCNNode+Utils.m */; };
-		D74C2B31DC35C158505FEE706A4C035A /* SCNNode+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 253D9A585B7A3A1FA1DCD7BD9D77FD11 /* SCNNode+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49459BE6489B8839FBBDF88FFC7CEBD /* JAQDiceView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BC5665614505145381CD3170E2E15 /* JAQDiceView-dummy.m */; };
+		B6BDABBE61C890B4EB818E3574621322 /* SCNNode+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DEE47C0F7636C54F3526F0E6C53202 /* SCNNode+Utils.m */; };
+		D74C2B31DC35C158505FEE706A4C035A /* SCNNode+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5FED1ACA4E0E77DA2DB14123D696D2 /* SCNNode+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7CD6E03C236B94244016F6900BC140E /* Pods-JAQDiceView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AEDC3AC02A35B3EDEF1C668255C3C /* Pods-JAQDiceView-dummy.m */; };
-		EA1BC0275E9DE1542BDA87950771130B /* Dices.dae in Resources */ = {isa = PBXBuildFile; fileRef = E77A1BECF8F16E4B9207CA15CBC53A9E /* Dices.dae */; };
-		EF86FBF45CF26212F4F109BE52E4FFAA /* JAQDiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EF3FD743982EA7C49AA017ADDAC488 /* JAQDiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F979F0CD109B702CA838FAD97B0FA4EF /* woodTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EEBF443FD10645B3E94BAF61A9E973 /* woodTile.png */; };
+		EA1BC0275E9DE1542BDA87950771130B /* Dices.dae in Resources */ = {isa = PBXBuildFile; fileRef = A4CEE734DA3DB11E2A516D8B9D073E50 /* Dices.dae */; };
+		EF86FBF45CF26212F4F109BE52E4FFAA /* JAQDiceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C386DE975936A971CA8F63601654C02 /* JAQDiceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F979F0CD109B702CA838FAD97B0FA4EF /* woodTile.png in Resources */ = {isa = PBXBuildFile; fileRef = C0708C0D323921142243802881955D85 /* woodTile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,27 +38,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007ADA4764CCFE44608BFF58FE52FCF9 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		07C49B24FF6B8C052612E2518E8D7220 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		08A08EF73BD5D3B9C622D0AF91D28B4D /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		0B3BD85BAF9E94C56946E77EAF4737D8 /* Pods-JAQDiceView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAQDiceView.debug.xcconfig"; sourceTree = "<group>"; };
-		253D9A585B7A3A1FA1DCD7BD9D77FD11 /* SCNNode+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCNNode+Utils.h"; path = "Pod/Classes/SCNNode+Utils.h"; sourceTree = "<group>"; };
-		29278051639FB95245830B72391B55C1 /* JAQDiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAQDiceView.m; path = Pod/Classes/JAQDiceView.m; sourceTree = "<group>"; };
+		15DEE47C0F7636C54F3526F0E6C53202 /* SCNNode+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCNNode+Utils.m"; path = "Pod/Classes/SCNNode+Utils.m"; sourceTree = "<group>"; };
+		188DC47F294FA3648F833CEBD513E775 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		1EB27891BEB2679CA142D432931F9399 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		292EC71BD8FF24BD55F28EC9E90DC317 /* libPods-JAQDiceView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JAQDiceView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A2C7348CCE8985A8D7C1C72FD2B8233 /* ResourceBundle-JAQDiceView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JAQDiceView-Info.plist"; sourceTree = "<group>"; };
-		40EF3FD743982EA7C49AA017ADDAC488 /* JAQDiceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAQDiceView.h; path = Pod/Classes/JAQDiceView.h; sourceTree = "<group>"; };
-		482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAQDiceView.xcconfig; sourceTree = "<group>"; };
-		4B3AC7D3ED3834214957E0D8E2843301 /* JAQDiceView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAQDiceView-dummy.m"; sourceTree = "<group>"; };
+		29337BDE48EDC35A066732F82E30F5A7 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		594AEDC3AC02A35B3EDEF1C668255C3C /* Pods-JAQDiceView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAQDiceView-dummy.m"; sourceTree = "<group>"; };
+		5B2BC5665614505145381CD3170E2E15 /* JAQDiceView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAQDiceView-dummy.m"; sourceTree = "<group>"; };
+		5C386DE975936A971CA8F63601654C02 /* JAQDiceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JAQDiceView.h; path = Pod/Classes/JAQDiceView.h; sourceTree = "<group>"; };
 		5D5FB72A8E0FBCE383C93E3313783180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5D8EE590E41796AA5CDEDF04217E7980 /* Pods-JAQDiceView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAQDiceView-resources.sh"; sourceTree = "<group>"; };
+		6098D5EC2D2A54AF0F6E4C85B040B261 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		6811CA3A47257CFA83B4A8648DF10BAC /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
 		7308C7550072BEED50253064B6E72C64 /* Pods-JAQDiceView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAQDiceView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88EEBF443FD10645B3E94BAF61A9E973 /* woodTile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = woodTile.png; path = Pod/Assets/woodTile.png; sourceTree = "<group>"; };
+		8C731CA230EAAC35AFEB3C27B65BF4EF /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		9096C844D06AD9A737A9FE675662B98E /* JAQDiceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JAQDiceView.m; path = Pod/Classes/JAQDiceView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE7212505E43DC10660B2625FEB75CA0 /* JAQDiceView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAQDiceView-prefix.pch"; sourceTree = "<group>"; };
+		A4CEE734DA3DB11E2A516D8B9D073E50 /* Dices.dae */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml.dae; name = Dices.dae; path = Pod/Assets/Dices.dae; sourceTree = "<group>"; };
+		A84CDA0522AB71125210517172D84630 /* ResourceBundle-JAQDiceView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JAQDiceView-Info.plist"; sourceTree = "<group>"; };
+		C0708C0D323921142243802881955D85 /* woodTile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = woodTile.png; path = Pod/Assets/woodTile.png; sourceTree = "<group>"; };
 		C43B1EBE76B5A8466DCD21A948A63179 /* JAQDiceView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAQDiceView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FED1ACA4E0E77DA2DB14123D696D2 /* SCNNode+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SCNNode+Utils.h"; path = "Pod/Classes/SCNNode+Utils.h"; sourceTree = "<group>"; };
+		D1CE0E8477A6D6BE5D244ED40F0600F5 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		D467B233E82F2BEEC0A1B040944C7E16 /* libJAQDiceView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJAQDiceView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05DC665A66CB6C4D9216D685DB85A8C /* JAQDiceView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAQDiceView-prefix.pch"; sourceTree = "<group>"; };
 		E18193111E980B95918865E4581B102F /* Pods-JAQDiceView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAQDiceView-frameworks.sh"; sourceTree = "<group>"; };
-		E77A1BECF8F16E4B9207CA15CBC53A9E /* Dices.dae */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml.dae; name = Dices.dae; path = Pod/Assets/Dices.dae; sourceTree = "<group>"; };
-		EB12EDEED460C105F137DFB96945653F /* SCNNode+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SCNNode+Utils.m"; path = "Pod/Classes/SCNNode+Utils.m"; sourceTree = "<group>"; };
+		F7FE0AE7FCA33DC15D6D4FA49DCB8714 /* JAQDiceView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAQDiceView.xcconfig; sourceTree = "<group>"; };
 		FA27B682E1E9671C7884704CF1A310F1 /* Pods-JAQDiceView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAQDiceView-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC333D291F728DA1C44E9E6A9735D322 /* Pods-JAQDiceView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAQDiceView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +100,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3F2069D1C645DD5A580C08787EF966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EB27891BEB2679CA142D432931F9399 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		150CFD99FD20ED70EC3DC2ACCF4B1196 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4A082AC54BCAB4D578A56238E3B0B75C /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		1660A2D4BAF763026F3CAD540B564B41 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				007ADA4764CCFE44608BFF58FE52FCF9 /* FIRInstanceID.h */,
+				48A48EC963A502C00EA83CF5BEADBEB9 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
 		1D281EBA4985DA4F53023E08B4A39E5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +144,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		2A0755EF89EF3BB54DF1DD565A59B52E /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				2D498505147F0F4A167119CA0FEA48B6 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		2D498505147F0F4A167119CA0FEA48B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6098D5EC2D2A54AF0F6E4C85B040B261 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42EB00B5FBC3D38202B72CACA1E5DBA0 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1CE6B8B0F0A9B7B4611D1AF48D31A85 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,16 +176,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		72A9FF23D20E45E6DFEC99ED0F985F00 /* Support Files */ = {
+		48A48EC963A502C00EA83CF5BEADBEB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */,
-				4B3AC7D3ED3834214957E0D8E2843301 /* JAQDiceView-dummy.m */,
-				BE7212505E43DC10660B2625FEB75CA0 /* JAQDiceView-prefix.pch */,
-				3A2C7348CCE8985A8D7C1C72FD2B8233 /* ResourceBundle-JAQDiceView-Info.plist */,
+				188DC47F294FA3648F833CEBD513E775 /* FirebaseInstanceID.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JAQDiceView";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A082AC54BCAB4D578A56238E3B0B75C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1CE0E8477A6D6BE5D244ED40F0600F5 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5192E02756074751B6902A3F76F5D59D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C731CA230EAAC35AFEB3C27B65BF4EF /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		556B8F067C24B93E51CAF7A92AB68F68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A08EF73BD5D3B9C622D0AF91D28B4D /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		74B2B147DCE8BBDE896391762ABBA1E2 /* Pods-JAQDiceView */ = {
@@ -150,40 +228,100 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				CE0199048FAA022E774124380CA33583 /* Pods */,
+				BCFF1D064E9D9ED27040FADFA89A02CD /* Pods */,
 				1D281EBA4985DA4F53023E08B4A39E5B /* Products */,
 				D690F3F66C31DF8F68453DDAB96DF92A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91F21B2479507A0B1B1684A500DBF855 /* Resources */ = {
+		7FBC0063BC06BD72A5751D39CB90D043 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E77A1BECF8F16E4B9207CA15CBC53A9E /* Dices.dae */,
-				88EEBF443FD10645B3E94BAF61A9E973 /* woodTile.png */,
+				29337BDE48EDC35A066732F82E30F5A7 /* Firebase.h */,
 			);
-			name = Resources;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		ABD41052564ABFA95086694FB1D93A70 /* JAQDiceView */ = {
+		950ECD0CBCB9889A69B5B34B9F44CC2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40EF3FD743982EA7C49AA017ADDAC488 /* JAQDiceView.h */,
-				29278051639FB95245830B72391B55C1 /* JAQDiceView.m */,
-				253D9A585B7A3A1FA1DCD7BD9D77FD11 /* SCNNode+Utils.h */,
-				EB12EDEED460C105F137DFB96945653F /* SCNNode+Utils.m */,
-				91F21B2479507A0B1B1684A500DBF855 /* Resources */,
-				72A9FF23D20E45E6DFEC99ED0F985F00 /* Support Files */,
+				F7FE0AE7FCA33DC15D6D4FA49DCB8714 /* JAQDiceView.xcconfig */,
+				5B2BC5665614505145381CD3170E2E15 /* JAQDiceView-dummy.m */,
+				E05DC665A66CB6C4D9216D685DB85A8C /* JAQDiceView-prefix.pch */,
+				A84CDA0522AB71125210517172D84630 /* ResourceBundle-JAQDiceView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JAQDiceView";
+			sourceTree = "<group>";
+		};
+		A028B1DDBB18BFB1EE7AC45A9D58A992 /* JAQDiceView */ = {
+			isa = PBXGroup;
+			children = (
+				5C386DE975936A971CA8F63601654C02 /* JAQDiceView.h */,
+				9096C844D06AD9A737A9FE675662B98E /* JAQDiceView.m */,
+				CB5FED1ACA4E0E77DA2DB14123D696D2 /* SCNNode+Utils.h */,
+				15DEE47C0F7636C54F3526F0E6C53202 /* SCNNode+Utils.m */,
+				D12D378B7F482A0AD60FA5A888B15109 /* Resources */,
+				950ECD0CBCB9889A69B5B34B9F44CC2F /* Support Files */,
 			);
 			path = JAQDiceView;
 			sourceTree = "<group>";
 		};
-		CE0199048FAA022E774124380CA33583 /* Pods */ = {
+		A3FE7A928F51E23EBE2BBB26A8EF15BD /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				ABD41052564ABFA95086694FB1D93A70 /* JAQDiceView */,
+				5192E02756074751B6902A3F76F5D59D /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		B1CE6B8B0F0A9B7B4611D1AF48D31A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C49B24FF6B8C052612E2518E8D7220 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCFF1D064E9D9ED27040FADFA89A02CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE05014CD347F72DD31F5385445366C5 /* Firebase */,
+				2A0755EF89EF3BB54DF1DD565A59B52E /* FirebaseAnalytics */,
+				CBF5A98BB874B57EA5C600A21B756055 /* FirebaseCore */,
+				1660A2D4BAF763026F3CAD540B564B41 /* FirebaseInstanceID */,
+				150CFD99FD20ED70EC3DC2ACCF4B1196 /* Google-Mobile-Ads-SDK */,
+				A3FE7A928F51E23EBE2BBB26A8EF15BD /* GoogleInterchangeUtilities */,
+				D886649D81064D4C020FFA65A0053B03 /* GoogleSymbolUtilities */,
+				42EB00B5FBC3D38202B72CACA1E5DBA0 /* GoogleUtilities */,
+				A028B1DDBB18BFB1EE7AC45A9D58A992 /* JAQDiceView */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBF5A98BB874B57EA5C600A21B756055 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				556B8F067C24B93E51CAF7A92AB68F68 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		CE05014CD347F72DD31F5385445366C5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC0063BC06BD72A5751D39CB90D043 /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D12D378B7F482A0AD60FA5A888B15109 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4CEE734DA3DB11E2A516D8B9D073E50 /* Dices.dae */,
+				C0708C0D323921142243802881955D85 /* woodTile.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D690F3F66C31DF8F68453DDAB96DF92A /* Targets Support Files */ = {
@@ -192,6 +330,14 @@
 				74B2B147DCE8BBDE896391762ABBA1E2 /* Pods-JAQDiceView */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D886649D81064D4C020FFA65A0053B03 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0B3F2069D1C645DD5A580C08787EF966 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,7 +514,7 @@
 		};
 		216F85D7A56556DFC44A57365FD6D661 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			baseConfigurationReference = F7FE0AE7FCA33DC15D6D4FA49DCB8714 /* JAQDiceView.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JAQDiceView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -448,7 +594,7 @@
 		};
 		A8FF3E9B44852568635F609FAA680B84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			baseConfigurationReference = F7FE0AE7FCA33DC15D6D4FA49DCB8714 /* JAQDiceView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -507,7 +653,7 @@
 		};
 		AE6CA00EED8F76D7F34B787A582433AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			baseConfigurationReference = F7FE0AE7FCA33DC15D6D4FA49DCB8714 /* JAQDiceView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -528,7 +674,7 @@
 		};
 		E7C45923BD8A4C2F04E54A9882DDFCD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 482C91107494572136C6BD3DE0F188B6 /* JAQDiceView.xcconfig */;
+			baseConfigurationReference = F7FE0AE7FCA33DC15D6D4FA49DCB8714 /* JAQDiceView.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JAQDiceView";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
