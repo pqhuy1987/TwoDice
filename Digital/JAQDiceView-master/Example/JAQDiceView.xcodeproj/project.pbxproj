@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12C082A41F38454A0091AA6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12C082A31F38454A0091AA6E /* GoogleService-Info.plist */; };
+		12C082A61F3858DC0091AA6E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C082A51F3858DC0091AA6E /* StoreKit.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		12C082A31F38454A0091AA6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12C082A51F3858DC0091AA6E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		322F38BB950480059DE8F561 /* JAQDiceView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JAQDiceView.podspec; path = ../JAQDiceView.podspec; sourceTree = "<group>"; };
 		34AAD9B81C04E79DC431956E /* Pods-JAQDiceView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAQDiceView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAQDiceView/Pods-JAQDiceView.release.xcconfig"; sourceTree = "<group>"; };
 		413EF978E295C3DB064B8E07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C082A61F3858DC0091AA6E /* StoreKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12C082A51F3858DC0091AA6E /* StoreKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -421,7 +425,7 @@
 				GCC_PREFIX_HEADER = "JAQDiceView/JAQDiceView-Prefix.pch";
 				INFOPLIST_FILE = "JAQDiceView/JAQDiceView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digital.2dice.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.dice1.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -440,7 +444,7 @@
 				GCC_PREFIX_HEADER = "JAQDiceView/JAQDiceView-Prefix.pch";
 				INFOPLIST_FILE = "JAQDiceView/JAQDiceView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digital.2dice.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.dice1.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

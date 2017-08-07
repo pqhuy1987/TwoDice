@@ -7,12 +7,15 @@
 //
 
 #import "JAQAppDelegate.h"
+@import GoogleMobileAds;
+@import FirebaseAnalytics;
 
 @implementation JAQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    [FIRApp configure];
+    [GADMobileAds configureWithApplicationID:@"ca-app-pub-5722562744549789~4434448550"];
     // Override point for customization after application launch.
     return YES;
 }

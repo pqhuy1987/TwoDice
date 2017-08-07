@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/StoreKit.h>
+
 
 @interface JAQViewController : UIViewController
 
 @end
+
+
