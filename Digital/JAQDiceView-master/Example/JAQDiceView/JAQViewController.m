@@ -12,16 +12,25 @@
 @interface JAQViewController () <JAQDiceProtocol>
 @property (nonatomic, weak) IBOutlet JAQDiceView *playground;
 @property (nonatomic, weak) IBOutlet UILabel *result;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentTab;
+
 @end
 
 @implementation JAQViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.segmentTab setSelectedSegmentIndex:UISegmentedControlNoSegment];
+
+}
 - (void)diceView:(JAQDiceView *)view rolledWithFirstValue:(NSInteger)firstValue secondValue:(NSInteger)secondValue {
+    
 	self.result.text = [NSString stringWithFormat:@"%li",firstValue+secondValue];
 	[self addPopAnimationToLayer:self.result.layer withBounce:0.1 damp:0.02];
 }
 
 - (void)addPopAnimationToLayer:(CALayer *)aLayer withBounce:(CGFloat)bounce damp:(CGFloat)damp {
+
 	CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale"];
 	animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
 	animation.duration = 1;
@@ -38,4 +47,21 @@
 	[aLayer addAnimation:animation forKey:@"appearAnimation"];
 }
 
+
+- (IBAction)OntouchChange:(id)sender {
+    //[self.segmentTab setSelectedSegmentIndex:UISegmentedControlNoSegment];
+    switch (self.segmentTab.selectedSegmentIndex)
+    {
+        case 0:
+            [self.view setBackgroundColor:[UIColor blueColor]];
+            [self.segmentTab setSelectedSegmentIndex:UISegmentedControlNoSegment];
+            break;
+        case 1:
+            [self.view setBackgroundColor:[UIColor redColor]];
+            [self.segmentTab setSelectedSegmentIndex:UISegmentedControlNoSegment];
+            break;
+        default:
+            break;
+    }
+}
 @end
