@@ -206,6 +206,11 @@
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 4BLWLFDFU8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};

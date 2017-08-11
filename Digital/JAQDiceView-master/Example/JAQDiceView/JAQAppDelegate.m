@@ -17,7 +17,18 @@
     [FIRApp configure];
     [GADMobileAds configureWithApplicationID:@"ca-app-pub-5722562744549789~4434448550"];
     // Override point for customization after application launch.
+    
+    int shortestTime = 5;
+    int longestTime = 10;
+    int timeInterval = arc4random_uniform(longestTime - shortestTime) + shortestTime;
+    
+    [NSTimer scheduledTimerWithTimeInterval:timeInterval target:self selector:@selector(requestReview) userInfo:nil repeats:NO];
+    
     return YES;
+}
+
+- (void)requestReview {
+    [SKStoreReviewController requestReview];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -260,4 +260,5 @@ BOOL areAdsRemoved = NO;
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
+
 @end
