@@ -7,7 +7,6 @@ target 'JAQDiceView' do
 
   # Pods for JAQDiceView
   pod 'JAQDiceView'
-  pod ‘Firebase/Core’
-  pod ‘Firebase/AdMob’
+  pod 'Google-Mobile-Ads-SDK'
 
 end
